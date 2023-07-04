@@ -1,0 +1,24 @@
+use mec;
+show tables;
+create database mec;
+create table mec.student(
+id int,
+name varchar(20),
+email varchar(20),
+age int
+);
+use mec;
+show tables;
+select * from mec.student;
+describe mec.student;
+insert into mec.student values
+(1, "raja","123@gmail.com",45),
+(2, "ashok","123@gmail.com",15),
+(3, "ramu","123@gmail.com",25),
+(4, "raj","123@gmail.com",55),
+(5, "manoj","123@gmail.com",55),
+(6, "ramesh","123@gmail.com",75),
+(7, "ram","123@gmail.com",35),
+(8, "ravi","123@gmail.com",54),
+(9, "kathir","123@gmail.com",65),
+(10, "jeeva","123@gmail.com",35)
